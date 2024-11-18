@@ -1,0 +1,18 @@
+<h2>Currency Details: {{from}} to {{to}}</h2>
+
+<div class="historical-rates">
+  <h3>Historical Rates</h3>
+  <p>1 Year Ago: {{historicalRates.yearAgo | number:'1.4-4'}}</p>
+  <p>1 Month Ago: {{historicalRates.monthAgo | number:'1.4-4'}}</p>
+  <p>Yesterday: {{historicalRates.yesterday | number:'1.4-4'}}</p>
+  <p>Today: {{historicalRates.today | number:'1.4-4'}}</p>
+</div>
+
+<div class="popular-conversions">
+  <h3>Popular Conversions</h3>
+  <div *ngFor="let currency of popularCurrencies">
+    <p>1 {{from}} = {{popularConversions[currency] | number:'1.4-4'}} {{currency}}</p>
+  </div>
+</div>
+
+<a routerLink="/">Back to Converter</a>

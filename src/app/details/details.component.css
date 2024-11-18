@@ -1,0 +1,18 @@
+.details {
+    margin: 20px;
+  }
+  
+  .details h2,
+  .details h3 {
+    text-align: center;
+  }
+  
+  .details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .details li {
+    margin: 5px 0;
+  }
+  
