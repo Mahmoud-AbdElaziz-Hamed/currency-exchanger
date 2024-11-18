@@ -1,0 +1,12 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Optional background color */
+}
+
+.logo-image {
+  text-align: center;
+  max-width: 70%;
+  object-fit: contain;
+}
