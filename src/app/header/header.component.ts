@@ -16,9 +16,13 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="logo">Currency Exchanger</div>
       <nav>
-        <a routerLink="/">Home</a>
-        <a routerLink="/details/USD">USD Details</a>
-        <a routerLink="/details/EUR">EUR Details</a>
+        <a routerLink="/" aria-label="Go to Home">Home</a>
+        <a routerLink="/details/USD" aria-label="View USD Details"
+          >USD Details</a
+        >
+        <a routerLink="/details/EUR" aria-label="View EUR Details"
+          >EUR Details</a
+        >
       </nav>
     </header>
   `,
